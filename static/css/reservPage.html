@@ -10,7 +10,7 @@
     <title>Document</title>
     <style>
       * {
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
       }
     </style>
     <script
@@ -77,6 +77,85 @@
       <div class="mn-r"></div>
 
       <div class="ft-l"></div>
+
+      <!-- 내가 구현한 영역 시작 -->
+
+      <!-- topTitle -->
+      <div class="topTitle">
+        <h3>
+          <i class="fa-solid fa-thumbtack"></i>  
+          예약하기
+          <hr />
+        </h3>
+      </div>
+
+      <!-- reservTable -->
+      <div class="reservTable">
+        <table>
+            <tr>
+              <td class="title">아이디(*)</td>
+              <td class="content">abcdefg12345</td>
+            </tr>
+            <tr>
+              <td class="title">이름(*)</td>
+              <td class="content">홍길동</td>
+            </tr>
+
+            <tr>
+              <td class="title">캠핑장 이름(*)</td>
+              <td class="content">입화산 참살이 숲 야영장</td>
+            </tr>
+            <tr>
+              <td class="title">예약일자</td>
+              <td class="content">
+                <input name="reservDate" type="date">
+              </td>
+            </tr>
+            <tr>
+              <td class="title">인원</td>
+              <td class="content">
+                <select name="in-won" id="">
+                  <option value="">====선택====</option>
+                  <option value="1">1명</option>
+                  <option value="2">2명</option>
+                  <option value="3">3명</option>
+                  <option value="4">4명</option>
+                  <option value="5">5명이상</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="title">연락처(*)</td>
+              <td class="content">010-1234-5678</td>
+            </tr>
+            <tr>
+              <td class="title">이메일(*)</td>
+              <td class="content">test11@kh.com</td>
+            </tr>
+          </tr>
+        </table>
+      </div>
+
+      <!-- caution -->
+      <div class="caution">
+        <h3>
+          <i class="fa-solid fa-thumbtack"></i>  
+          주의사항
+          <hr />
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, corrupti sed ad sapiente recusandae dignissimos accusamus nihil adipisci dolor inventore quaerat eaque error odio, accusantium aut! Laborum, id! Quibusdam, cum!
+          Facere incidunt accusantium distinctio aliquam sequi, doloremque fugit sint tempore repudiandae ratione, dignissimos dolores ducimus! Iusto nam ipsum, nostrum ad similique provident placeat consequatur blanditiis ducimus a laudantium consequuntur reprehenderit?
+          Atque consequatur laudantium alias enim vero tempora ea nulla, blanditiis minima dicta dolorum a eaque inventore quasi, voluptatem pariatur quis minus similique quibusdam ex! Consequuntur cumque quam reiciendis officiis animi!</p>
+      </div>
+        
+      <!-- btn -->
+      <div class="reservBtn">
+        <div><button type="button" class="submitBtn">예약</button></div>
+        <div><button type="button" class="cancelBtn">취소</button></div>
+      </div>
+      
+
+      <!-- 내가 구현한 영역 끝 -->
 
       <!-- 푸터영역(FOOTER)-->
       <footer class="ft">
